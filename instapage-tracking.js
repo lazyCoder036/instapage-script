@@ -2,6 +2,7 @@
 <!-- Add to Settings->Javascript->Footer -->
 <!-- CS:20210930-27-1 -->
 <script>
+console.log("Hello world");
 //add page url into the url input field - without query string;
 document.addEventListener("DOMContentLoaded", function () {
 	var link = window.location.href.toString().split("?")[0];
@@ -12,7 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
 		urlArray[i].value = link;
 	}
 });
-//add page url into the url input field - without query string; --END HERE
+//add page url into the url input field - without query string; --END HERE
+
+
 window.instapageFormSubmitSuccess = function (form) {
 	// Get values from form fields
 	console.log(form.querySelectorAll('input'));
@@ -54,10 +57,13 @@ window.instapageFormSubmitSuccess = function (form) {
         } else {
 		param5 = "N/A";
 	}
-	// Get values from form fields -- END HERE
+	// Get values from form fields -- END HERE
+
+
 	// Log the values to the console
 	console.log(param1 + "  " + param2 + "  " + param3 + "  " + param4 + "  " + param5);
-		//push customer info into data layer
+	
+	//push customer info into data layer
 	window.dataLayer = window.dataLayer || [];
 	window.dataLayer.push({
 		'event': 'formSubmissionSuccess',
@@ -86,4 +92,5 @@ for (i = 0; i < acc.length; i++) {
 	});
 }
 //accordion code ends here
+
 </script>
