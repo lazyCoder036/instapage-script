@@ -1,7 +1,6 @@
-< !--Begin "Facebook datalayer push" || Help center-- >
-< !--Add to Settings -> Javascript -> Footer-- >
-< !--CS: 20210930 - 27 - 1 -- >
-    <script>
+//Begin "facebook datalayer push
+//Add to settings -> Javascript -> Footer
+<script>
 //add page url into the url input field - without query string;
         document.addEventListener("DOMContentLoaded", function () {
 	var link = window.location.href.toString().split("?")[0];
@@ -114,3 +113,4 @@
 }
     //to the top button code END HERE
     </script>
+
