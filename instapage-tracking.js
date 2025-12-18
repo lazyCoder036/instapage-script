@@ -1,6 +1,6 @@
 //Begin "facebook datalayer push
 //Add to settings -> Javascript -> Footer
-<script>
+//<script>
 //add page url into the url input field - without query string;
         document.addEventListener("DOMContentLoaded", function () {
 	var link = window.location.href.toString().split("?")[0];
@@ -112,5 +112,6 @@
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
     //to the top button code END HERE
-    </script>
+ //   </script>
+
 
