@@ -2,6 +2,8 @@
 //Add to settings -> Javascript -> Footer
 //<script>
 //add page url into the url input field - without query string;
+//cdn.jsdelivr.net is being used to deliver the script
+//make sure to purge the CDN cache if you make any changes to the script
 document.addEventListener("DOMContentLoaded", function () {
     var link = window.location.href.toString().split("?")[0];
     console.log("This is the link after update : " + link);
