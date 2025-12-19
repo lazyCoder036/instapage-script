@@ -15,13 +15,14 @@
 
   /* replace "1" with the number of the first field that you want to align horizontally */
   .form>*:nth-child(2),
-    .form>*:nth-child(4),
-    .form>*:nth-child(6),   
-    /* replace "2" with the number of the second field that you want to align horizontally */
-    .form>*:nth-child(8) {
+	.form>*:nth-child(4),
+	.form>*:nth-child(6),
+	/* replace "2" with the number of the second field that you want to align horizontally */
+	.form>*:nth-child(8) {
     width: 47%;
   }
 }
+
 /*Form Fields Alignment - END HERE*/
 /*
 IMPORTANT:
@@ -33,32 +34,43 @@ If your form uses inside labels, then the numbers should follow this pattern: nt
   position: unset;
   margin-top: 15px;
 }
+
 /*Button Fix -- END HERE*/
 
 /*Input Field hight modifcaiton  -- START HERE*/
 .form-input {
   height: 2.5rem;
 }
+
 /*Input Field hight modifcaiton  -- END HERE*/
 
 /*TO THE TOP BUTTON - START HERE*/
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  outline: none; /* Remove outline */
-  cursor: pointer; /* Add a mouse pointer on hover */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  outline: none;
+  /* Remove outline */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
   padding: 15px 20px;
   border-radius: 11px;
   border: 1px solid #60c4d1;
-  font-size: 28px; /* Increase font size */
+  font-size: 28px;
+  /* Increase font size */
   font-weight: bold;
   text-decoration: none;
   background: linear-gradient(to bottom, #00ddff 5%, #32bed1 100%);
   background-color: #00ddff;
-  color: white; /* Text color */
+  color: white;
+  /* Text color */
   box-shadow: 0px 10px 14px -7px #00ddff;
   text-shadow: 0px 1px 0px #5b8a3c;
 }
@@ -67,6 +79,7 @@ If your form uses inside labels, then the numbers should follow this pattern: nt
   background: linear-gradient(to bottom, #32bed1 5%, #00ddff 100%);
   background-color: #32bed1;
 }
+
 /*TO THE TOP BUTTON - END HERE*/
 
 /*Accordion code -- START HERE*/
@@ -115,4 +128,73 @@ If your form uses inside labels, then the numbers should follow this pattern: nt
   text-align: left;
 }
 
+/* Mobile */
+
+@media (min-width: 768px) {
+  .accordion {
+    width: 100%;
+  }
+}
+
+/* Desktop (typically ≥ 1024px) */
+@media (min-width: 1024px) {
+  .accordion {
+    min-width: 500px;
+  }
+}
+
 /*Accordion code -- END HERE*/
+
+/* CODE SPECIFIED FOR THIS PAGE :  https://campaign.cyanergy.com.au/cheaper-home-solar-battery-rebates*/
+#element-1937,
+#element-1973,
+#element-1991,
+#element-2002,
+#element-2010,
+#element-2044,
+#element-2150,
+#element-2158 {
+  height: 100% !important;
+}
+/* CODE SPECIFIED FOR THIS PAGE -- END HERE :  https://campaign.cyanergy.com.au/cheaper-home-solar-battery-rebates*/
+
+/* CODE SPECIFIED FOR THIS PAGE :  http: //campaign.cyanergy.com.au/battery-booster-program-vic*/
+
+#element-1556 {
+  height: 100% !important;
+}
+
+/* CODE SPECIFIED FOR THIS PAGE -- END HERE :  http://campaign.cyanergy.com.au/battery-booster-program-vic*/
+
+/* CODE SPECIFIED FOR THIS PAGE :  http://campaign.cyanergy.com.au/commercial-solar-system*/
+
+#element-2355 {
+  height: 100% !important;
+}
+
+/* CODE SPECIFIED FOR THIS PAGE -- END HERE :  http://campaign.cyanergy.com.au/commercial-solar-system*/
+
+/* CODE SPECIFIED FOR THIS PAGE :  https: //campaign.cyanergy.com.au/solar-panel-scheme-vic-rebate*/
+
+#element-1453 {
+  height: 100% !important;
+}
+
+/* CODE SPECIFIED FOR THIS PAGE -- END HERE : https: //campaign.cyanergy.com.au/solar-panel-scheme-vic-rebate*/
+
+/* CODE SPECIFIED FOR THIS PAGE :  https: //campaign.cyanergy.com.au/vic-interest-free-loan-for-batteries-landing*/
+
+#element-2123,
+#element-2132 {
+  height: 100% !important;
+}
+
+/* CODE SPECIFIED FOR THIS PAGE -- END HERE : https: //campaign.cyanergy.com.au/vic-interest-free-loan-for-batteries-landing*/
+
+/* CODE SPECIFIED FOR THIS PAGE : http: //campaign.cyanergy.com.au/vic-aircon-rebate*/
+
+#element-1290 {
+  height: 100% !important;
+}
+
+/* CODE SPECIFIED FOR THIS PAGE -- END HERE : http: //campaign.cyanergy.com.au/vic-aircon-rebate*/
