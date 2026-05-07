@@ -17,7 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
         utm_campaign: 'utm campaign',
         utm_agid:     'utm agid',
         utm_term:     'utm term',
+        utm_content:  'utm content',
         device:       'device',
+        ttclid:       'ttclid',
+        gclid:        'gclid',
         msclkid:      'msclkid',
         fbclid:       'fbclid',
     };
