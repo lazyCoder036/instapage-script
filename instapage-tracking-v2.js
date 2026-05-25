@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
         gclid:        'gclid',
         msclkid:      'msclkid',
         fbclid:       'fbclid',
+        placement:    'placement',
+        site_source_name: 'site source name',
     };
 
     const params = new URLSearchParams(window.location.search);
