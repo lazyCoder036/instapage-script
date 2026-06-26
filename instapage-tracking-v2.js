@@ -27,7 +27,15 @@ document.addEventListener("DOMContentLoaded", function () {
         site_source_name: 'site source name',
     };
 
-    const params = new URLSearchParams(window.location.search);
+    // 1. Try standard location.search first
+    let searchString = window.location.search;
+
+    // 2. Fallback: If search is empty but a hash exists, check if the hash contains a '?'
+    if (!searchString && window.location.hash.includes('?')) {
+        searchString = window.location.hash.substring(window.location.hash.indexOf('?'));
+    }
+
+    const params = new URLSearchParams(searchString);
 
     Object.entries(utmMap).forEach(([param, fieldName]) => {
         const value = params.get(param);
